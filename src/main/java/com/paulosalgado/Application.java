@@ -3,12 +3,9 @@ package com.paulosalgado;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
 import ratpack.jackson.Jackson;
 import ratpack.server.RatpackServer;
 
-@SpringBootApplication
 public class Application {
 	
 	public static void main(String[] args) throws Exception {

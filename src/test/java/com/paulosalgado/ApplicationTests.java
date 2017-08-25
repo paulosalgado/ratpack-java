@@ -7,17 +7,12 @@ import java.util.List;
 
 import org.junit.After;
 import org.junit.Test;
-import org.junit.runner.RunWith;
-import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.junit4.SpringRunner;
 
 import com.fasterxml.jackson.core.JsonProcessingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import ratpack.test.MainClassApplicationUnderTest;
 
-@RunWith(SpringRunner.class)
-@SpringBootTest
 public class ApplicationTests {
 	
 	MainClassApplicationUnderTest appUnderTest = new MainClassApplicationUnderTest(Application.class);
